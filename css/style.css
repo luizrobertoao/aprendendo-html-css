@@ -1,0 +1,42 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+#logo {
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.botoesmenu {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+#retratoHome {
+    background-image: url('../img/jane.jpg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+}
