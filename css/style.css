@@ -2,16 +2,20 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
 header {
     border-width: 1px;
-    border-color: rgb(226, 226, 226);;
+    border-color: rgb(226, 226, 226);
+    ;
     border-style: solid;
 }
+
 #logo {
     text-align: center;
     font-weight: bolder;
-    
+
 }
+
 #menu {
     text-align: center;
     list-style-type: none;
@@ -19,6 +23,7 @@ header {
     margin-block-start: -5px;
     margin-block-end: 10px;
 }
+
 .botoesmenu {
     display: inline-block;
     text-align: center;
@@ -26,19 +31,23 @@ header {
     padding-top: 8px;
     padding-bottom: 0px;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 a:visited {
     text-decoration: none;
-    color:black;
+    color: black;
 }
+
 footer {
     text-align: center;
     background-color: rgb(230, 230, 230);
     padding: 10px;
 }
+
 /* Específico index.html */
 #retratoHome {
     background-image: url('../img/jane.jpg');
@@ -48,17 +57,21 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
 /* Específico about.html*/
 #h1About {
     text-align: center;
     margin-top: 75px;
 }
+
 #h2About {
     text-align: center;
 }
+
 #pAbout {
     text-align: center;
 }
+
 img {
     display: block;
     width: 500px;
@@ -66,37 +79,59 @@ img {
     margin-right: auto;
     margin-bottom: 55px;
 }
+
 /* Específico Contact */
-#contactCont{
+#contactCont {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
+
 #h1Contact {
-    margin-top: 75px;
+    margin-top: 35px;
 }
-#h2Contact {
-}
-#phone{
+
+#h2Contact {}
+
+#phone {
     border-bottom-width: 2px;
     border-bottom-color: rgb(185, 185, 185);
     border-bottom-style: solid;
     padding-bottom: 15px;
 }
+
 #emails {
     text-decoration: underline;
     color: blue;
 }
+
 #lastCont {
     margin-bottom: 40px;
 }
+
+.duas-colunas {
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.duas-colunas div {
+    float: left;
+    width: 50%;
+}
+
+#map {
+    margin-top: 100px;
+}
+
 /* Específico Music */
-#musicCont{
+#musicCont {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
+
 #h1Music {
     margin-top: 60px;
 }
-
